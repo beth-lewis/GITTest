@@ -29,6 +29,10 @@ namespace GITTest
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            // TODO: This line of code loads data into the 'concertTicketsDataSet.tblTicket' table. You can move, or remove it, as needed.
+            this.tblTicketTableAdapter.Fill(this.concertTicketsDataSet.tblTicket);
+            // TODO: This line of code loads data into the 'dMU_BoxDataSet.tblHall' table. You can move, or remove it, as needed.
+            this.tblHallTableAdapter.Fill(this.dMU_BoxDataSet.tblHall);
             //comment
         }
     }
